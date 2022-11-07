@@ -4,8 +4,7 @@
 Console.WriteLine("Введите число: ");
 int num = int.Parse(Console.ReadLine()!);
 
-int div = num % 2;
-if (div == 0) 
+if (num % 2 == 0) 
 {
     Console.WriteLine("Число четное");
 }
