@@ -19,4 +19,4 @@ int A = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число B: ");
 int B = int.Parse(Console.ReadLine()!);
 int Degree = GetDegree(A, B);
-Console.WriteLine(Degree);
+Console.WriteLine($"{A}, {B} -> {Degree}");
