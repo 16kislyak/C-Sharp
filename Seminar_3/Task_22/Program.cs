@@ -13,7 +13,7 @@ string GetSquare(int N)
 }
 Console.Clear();
 Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()!);
 
 string GetSquare1 = GetSquare(n);
 Console.WriteLine($"{GetSquare1}");

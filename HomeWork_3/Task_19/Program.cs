@@ -27,7 +27,7 @@ string Palindrome(int A)
 
 Console.Clear();
 Console.Write("Введите пятизначное число: ");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 
 string PalindromeMain = Palindrome(a);
 Console.WriteLine($"{a} -> {PalindromeMain}");

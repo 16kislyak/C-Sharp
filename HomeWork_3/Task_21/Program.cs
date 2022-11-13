@@ -9,17 +9,17 @@ double GetLength(double X1, double Y1, double Z1, double X2, double Y2, double Z
 
 Console.Clear();
 Console.Write("X1: ");
-int x1 = int.Parse(Console.ReadLine());
+int x1 = int.Parse(Console.ReadLine()!);
 Console.Write("Y1: ");
-int y1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine()!);
 Console.Write("Z1: ");
-int z1 = int.Parse(Console.ReadLine());
+int z1 = int.Parse(Console.ReadLine()!);
 Console.Write("X2: ");
-int x2 = int.Parse(Console.ReadLine());
+int x2 = int.Parse(Console.ReadLine()!);
 Console.Write("Y2: ");
-int y2 = int.Parse(Console.ReadLine());
+int y2 = int.Parse(Console.ReadLine()!);
 Console.Write("Z2: ");
-int z2 = int.Parse(Console.ReadLine());
+int z2 = int.Parse(Console.ReadLine()!);
 
 double GetLength1 = GetLength(x1, y1, z1, x2, y2, z2);
 Console.WriteLine($"{GetLength1}");

@@ -12,7 +12,7 @@ string GetCube(int N)
 }
 Console.Clear();
 Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine()!);
 
 string GetCube1 = GetCube(n);
 Console.WriteLine($"{GetCube1}");
