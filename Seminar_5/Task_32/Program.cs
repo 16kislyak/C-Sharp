@@ -20,7 +20,6 @@ void GetOpposite(int[] array)
     }
     Console.WriteLine(String.Join(" ", array));
 }
-
 Console.Write("Введите длину массива: ");
 int length = int.Parse(Console.ReadLine()!);
 Console.Write("Введите минимальное значение: ");
