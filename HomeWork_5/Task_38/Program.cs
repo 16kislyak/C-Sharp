@@ -8,7 +8,7 @@ double[] GetArray(int size, int minValue, int maxValue)
     for (int i = 0; i < size; i++)
     {
         res[i] = maxValue - random.Next(maxValue - minValue) + random.NextDouble(); // NextDouble() дает случайное вещественное число в диапазоне от 0 до 1
-        Console.Write("{0,8:F2}", res[i]);
+        Console.Write($"{res[i]:F2}, "); // - :F2 - количество знаков после запятой
     }
     return res;
 }
