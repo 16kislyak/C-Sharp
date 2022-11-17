@@ -28,6 +28,6 @@ void FindEven(int[] array)
 Console.Clear();
 int[] Array = GetArray(8);
 Console.Write("[");
-Console.Write(String.Join(" ", Array));
+Console.Write(String.Join(", ", Array));
 Console.WriteLine("]");
 FindEven(Array);
