@@ -2,6 +2,9 @@
 
 int[] Fibonacci(int n)
 {
+    if(n == 0) return new int[0] {};
+    if(n == 1) return new int[1] {0};
+    if(n == 2) return new int[2] {0, 1};
     int[] array = new int[n];
     array[0] = 0;
     array[1] = 1;
