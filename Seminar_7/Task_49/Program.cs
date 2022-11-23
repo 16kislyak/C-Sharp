@@ -21,7 +21,7 @@ int[,] GetNewArray(int[,] oldArray)
     {
         for (int j = 0; j < oldArray.GetLength(1); j++)
         {
-            if (i % 2 == 0 && j % 2 == 0) oldArray[i, j] = oldArray[i, j] * oldArray[i, j];
+            if (i % 2 == 0 && j % 2 == 0) oldArray[i, j] *= oldArray[i, j];
         }
     }
     return oldArray;
